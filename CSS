@@ -1,0 +1,54 @@
+css
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #eee;
+}
+
+.recipe-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.recipe-content img {
+    max-width: 40%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.recipe-text ul li:hover {
+    background-color: #f8f8f8;
+}
+
+.recipe-text a {
+    color: #e57373;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    
+    img {
+        object-fit: cover;
+        width: 100%;
+    }
+    body {
+        font-family: 'CustomFont', Arial, sans-serif;
+    }
+    .recipe-line:hover { background-color: #f5f5f5; }
+    a {
+        color: blue;
+        text-decoration: underline;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;

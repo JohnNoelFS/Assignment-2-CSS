@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>My Favorite Recipe</h1>
+    </header>
+    <section class="recipe-content">
+        <img src="https://thedairyalliance.com/wp-content/uploads/2020/01/Milk-Photo.jpg" alt="White Milk">
+        <div class="recipe-text">
+            <h2>Recipe Title</h2>
+            <p><a href="https://th.bing.com/th/id/R.64756492f320f37a33251e17b20c8db8?rik=DrDEWdxpnUF52Q&riu=http%3a%2f%2fmediad.publicbroadcasting.net%2fp%2fkvpr%2ffiles%2fstyles%2fx_large%2fpublic%2f201209%2fmilk.jpg&ehk=jpNF6xxN1DfJ9pCIDHfGSu7bXXUn8nYFoyPRHtSXRWo%3d&risl=&pid=ImgRaw&r=0" target="_blank">Link to the original recipe</a></p>
+            <ul>
+                <li>Milk..</li>
+                <li>Chocolate...</li>
+                
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <p>Footer content here...</p>
+    </footer>
+</body>
+</html>
+CSS: styles.css
+
+css
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #eee;
+}
+
+.recipe-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.recipe-content img {
+    max-width: 40%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.recipe-text ul li:hover {
+    background-color: #f8f8f8;
+}
+
+.recipe-text a {
+    color: #e57373;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    
+    img {
+        object-fit: cover;
+        width: 100%;
+    }
+    body {
+        font-family: 'CustomFont', Arial, sans-serif;
+    }
+    .recipe-line:hover { background-color: #f5f5f5; }
+    a {
+        color: blue;
+        text-decoration: underline;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
